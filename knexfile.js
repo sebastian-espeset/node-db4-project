@@ -8,10 +8,10 @@ module.exports = {
     }
   },
   migrations:{
-    directory:'./data/migrations'
+    directory:'./data/migrations.js'
   },
   seeds:{
-    directory:'./data/seeds'
+    directory:'./data/seeds.js'
   },
   pool:{
     afterCreate:(conn, done)=>{
